@@ -24,7 +24,7 @@ This is the entry point of Node.js application.
 
         Started the server on a defined port (PORT variable).
 
-        Loaded environment variables with dotenv so your API key stays safe.
+        Loaded environment variables with dotenv so API key stays safe.
 
 
   ##  2. controllers/movieController.js
@@ -37,7 +37,7 @@ This file contains the logic for handling requests.
 
         Reads the movie title from the request (e.g., /api/movies?title=Inception).
 
-        Sends a request to the OMDb API using your API key.
+        Sends a request to the OMDb API using API key.
 
         If the movie is found, sends the movie data back to the client (browser or Postman).
 
