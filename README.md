@@ -1,4 +1,4 @@
-## movie search API
+## Movie Search API
 
 This is a simple Node.js + Express application that allows users to search for movies using the OMDb API. The server exposes an endpoint where you can query movies by title and get back JSON data with movie details.
 
